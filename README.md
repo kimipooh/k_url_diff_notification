@@ -63,6 +63,16 @@ macOS 10.13.3 での事例を紹介します。
 	// 前回保存データがあり、差分があるならメールで通知
 	$s->save_to_disk();
 
+config.ini.php の
+
+	'chousei_urls' => array(
+		'テスト'			=> 'https://chouseisan.com/s?◯◯
+	),
+	'prefix_save_filename'	=> 'save',
+
+の２つの設定にしているなら、
+$HOME/Desktop/k_url_diff_notification の「save_テスト.html」に、調整さんのデータで必要な部分のみ（table タグ かつ javascriptコード除外）が保存されます。
+
 
 ## 利用方法
 
