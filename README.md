@@ -15,18 +15,19 @@
 macOS 10.13.3 での事例を紹介します。
 仮にデスクトップに「k_url_diff_notification」というフォルダを作成して、そこの中にいれると仮定します。
 
-
 1. k_url_diff_notification.php と config.inc.php をダウンロードします。
 2. https://github.com/Synchro/PHPMailer より、PHPMailer をダウンロードします。
 3. 下記のフォルダ構成になるように、ダウンロードしたファイルやフォルダを移動します。
 
-	k_url_diff_notification
-		┣ k_url_diff_notification.php
-		┣ config.ini.php
-		┣ run.php
-		┗ PHPMailer（フォルダ）
+そうすれば、
 
-となっているはずです。
+	k_url_diff_notification
+		k_url_diff_notification.php
+		config.ini.php
+		run.php
+		PHPMailer（フォルダ）
+
+のようなフォルダ構成になっているはずです。
 
 ## config.ini.php を編集
 
