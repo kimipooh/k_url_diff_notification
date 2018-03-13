@@ -69,8 +69,13 @@ php run.php
 で動作します。
 Warning （utf-8絡み）が出ますが、無視でOKです。
 
-![調整さんデータ](https://user-images.githubusercontent.com/4168939/37337827-cbad3fb6-26f8-11e8-890f-7ee6c6eca7ef.png)
-![調整さん差分データのメール通知](https://user-images.githubusercontent.com/4168939/37337829-cdd03f0a-26f8-11e8-97aa-6aa087f34444.png)
+調整さんデータ
+
+<img src="https://user-images.githubusercontent.com/4168939/37337827-cbad3fb6-26f8-11e8-890f-7ee6c6eca7ef.png" width="50%">
+
+調整さん差分データのメール通知
+
+<img src="https://user-images.githubusercontent.com/4168939/37337829-cdd03f0a-26f8-11e8-97aa-6aa087f34444.png" width="50%">
 
 ## 応用編
 
