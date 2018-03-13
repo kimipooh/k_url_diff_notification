@@ -19,32 +19,36 @@ macOS 10.13.3 での事例を紹介します。
 1. k_url_diff_notification.php と config.inc.php をダウンロードします。
 2. https://github.com/Synchro/PHPMailer より、PHPMailer をダウンロードします。
 3. 下記のフォルダ構成になるように、ダウンロードしたファイルやフォルダを移動します。
+
 	k_url_diff_notification
 	┣ k_url_diff_notification.php
 	┣ config.ini.php
 	┣ run.php
 	┗ PHPMailer（フォルダ）
+
 となっているはずです。
 
 ## config.ini.php を編集
 
-もし「調整さん」で「Gmail」なら変数箇所は、
+「調整さん」で「Gmail」でよいなら、変数箇所は、
+
 	URL：chousei_urls
+
 送信メール設定
+
 	username = Gmailアドレス
 	passowrd = パスワード（※１）
 	from = 差出人アドレス
 	fromname = 差出人表示名
 	subject = 件名
-t	o = 宛先
+	to = 宛先
 
 	※１
-	// ２段階認証有効なら「アプリ固有のパスワード」を生成してそれをいれる
-	// 無効なら「安全性の低いアプリからのアクセスを許可」しておく
+	２段階認証有効なら「アプリ固有のパスワード」を生成してそれをいれる
+	無効なら「安全性の低いアプリからのアクセスを許可」しておく
 
-まぁこの手のツールを使うなら、アプリ固有のパスワードを一時利用するのをオススメ。パスワードも捨てパスワードを使えるため。
+の部分のみになります。まぁこの手のツールを使うなら、アプリ固有のパスワードを一時利用するのをオススメ。パスワードも捨てパスワードを使えるため。
 
-の部分のみです。
 
 ## run.php の編集
 
