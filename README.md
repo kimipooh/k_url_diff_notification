@@ -33,6 +33,8 @@ macOS 10.13.3 での事例を紹介します。
 
 「調整さん」で「Gmail」でよいなら、変数箇所は、
 
+URL設定
+
 	URL：chousei_urls
 
 送信メール設定
@@ -74,6 +76,10 @@ config.ini.php の
 の２つの設定にしているなら、
 $HOME/Desktop/k_url_diff_notification の「save_テスト.html」に、調整さんのデータで必要な部分のみ（table タグ かつ javascriptコード除外）が保存されます。
 
+	$s->save_to_disk();
+
+は最初の１度は保存だけして、２度目に差分があるときだけメール通知します。
+
 
 ## 利用方法
 
@@ -83,7 +89,7 @@ $HOME/Desktop/k_url_diff_notification の「save_テスト.html」に、調整�
 	cd k_url_diff_notification
 	php run.php
 
-で動作します。Warning （utf-8絡み）が出ますが、無視でOKです。
+で動作します。メールを送信するときに、Warning （utf-8絡み）が出ますが、無視でOKです。
 
 調整さんデータ
 
