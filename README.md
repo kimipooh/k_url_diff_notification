@@ -20,11 +20,12 @@ macOS 10.13.3 での事例を紹介します。
 2. https://github.com/Synchro/PHPMailer より、PHPMailer をダウンロードします。
 3. 下記のフォルダ構成になるように、ダウンロードしたファイルやフォルダを移動します。
 
-	k_url_diff_notification
-	┣ k_url_diff_notification.php
-	┣ config.ini.php
-	┣ run.php
-	┗ PHPMailer（フォルダ）
+
+    k_url_diff_notification
+    ┣ k_url_diff_notification.php
+    ┣ config.ini.php
+    ┣ run.php
+    ┗ PHPMailer（フォルダ）
 
 となっているはずです。
 
