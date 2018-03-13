@@ -66,7 +66,7 @@ macOS 10.13.3 での事例を紹介します。
 config.ini.php の
 
 	'chousei_urls' => array(
-		'テスト'			=> 'https://chouseisan.com/s?◯◯
+		'テスト'			=> 'https://chouseisan.com/s?◯◯'
 	),
 	'prefix_save_filename'	=> 'save',
 
